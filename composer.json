@@ -1,0 +1,24 @@
+{
+    "name": "sefasungur/hello-world",
+    "description": "Example package for Bagisto.",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sefasungur\\HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sefasungur",
+            "email": "info@sefasungur.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": ["Sefasungur\\HelloWorld\\Providers\\HelloWorldServiceProvider"]
+        }
+    }
+}
